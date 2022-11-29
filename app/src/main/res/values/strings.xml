@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SportsTest</string>
+    <string name="team_details">Team Details</string>
+    <string name="player_info">Players Information</string>
+</resources>

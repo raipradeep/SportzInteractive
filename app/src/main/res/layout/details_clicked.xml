@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="10dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Batting Details"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_battingStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Style"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/tv_battingAverage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Average"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/tv_battingStrikerate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Strikerate"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/tv_battingRuns"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Runs"
+                android:padding="5dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        app:cardMaxElevation="10dp"
+        app:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="Bowling Details"
+                android:textAlignment="center"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/tv_bowlingStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Style"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/tv_bowlingAverage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Average"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/tv_bowlingEco"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Economyrate"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/tv_bowlingWickets"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Wickets"
+                android:padding="5dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
